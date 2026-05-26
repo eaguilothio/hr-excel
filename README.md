@@ -156,7 +156,7 @@ La percepción inicial apuntaba a que el departamento de Urgencias podía presen
 
 Para contrastar esta idea, los resultados muestran que no se registró ninguna baja voluntaria en Urgencias durante 2025. Por tanto, la hipótesis inicial no queda respaldada por los datos disponibles.
 
-#### Conclusiones
+## Conclusiones
 
 La percepción inicial apuntaba a Urgencias como foco de pérdida de profesionales, dado el nivel de presión asistencial del servicio. Los datos no respaldan esa percepción: no se registró ninguna baja voluntaria en Urgencias durante 2025.
 
@@ -165,4 +165,18 @@ Tampoco se identifican otros departamentos problemáticos. El máximo de bajas v
 Cabe matizar que los porcentajes pueden resultar engañosos: aunque las bajas voluntarias representan el 31,25% de las salidas en 2025, el conteo absoluto es de apenas 5 casos sobre una plantilla de 300 empleados. Un porcentaje alto sobre una base pequeña no equivale a un problema de escala.
 
 Conclusión: no existe evidencia de un problema de rotación voluntaria en la organización. La tasa de turnover se mantiene muy por debajo del benchmark sectorial y las salidas voluntarias están dispersas, sin concentración significativa en ningún área.
+
+## Limitaciones del proyecto
+- 1. Dataset simulado
+
+El análisis se basa en un dataset sintético generado con IA.
+Esto implica que puede no reflejar la complejidad de un hospital real.
+
+- 2. Variables no utilizadas en el análisis
+
+El dataset incluía variables de potencial interés analítico que no han sido explotadas en este proyecto.
+
+La decisión de no utilizarlas fue intencional, ya que el objetivo principal no era maximizar el número de variables analizadas, sino priorizar un proceso sólido de limpieza, transformación y preparación del dato, centrándose en un caso de uso concreto (el departamento de Urgencias).
+
+En este contexto, al no identificarse una problemática clara en dicho departamento, el número de hipótesis relevantes fue limitado, reduciendo la necesidad de incorporar todas las variables disponibles. Esto ilustra cómo el alcance del análisis depende directamente de la pregunta de negocio inicial: cuanto más acotada es la problemática, más focalizado debe ser el camino hacia los insights.
 
