@@ -34,7 +34,7 @@ La idea era tener suficiente información para poder hacerme hipótesis.
 
 ---
 
-## ¿Qué herramientas usé y por qué?
+## ¿Qué herramienta usé y por qué?
 
 - **Excel** 
 
