@@ -144,6 +144,7 @@ Sin embargo, al analizar los motivos de salida, la baja voluntaria es la causa p
 2024 fue el año con mayor volumen de salidas; pero 2025 no parece presentar una situación preocupante.
 
 Conclusión provisional: no hay evidencias de un problema general de rotación. Aun así, el peso de las bajas voluntarias justifica seguir profundizando en el análisis.
+
 ---
 
 #### Hipótesis B — ¿Es Urgencias donde se pierde el talento?
