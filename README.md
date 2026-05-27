@@ -219,12 +219,7 @@ Sin embargo, la ausencia de un problema actual no elimina el riesgo futuro. La h
 
 El análisis se basa en un dataset sintético generado con IA. Esto implica que puede no reflejar la complejidad de un hospital real.
 
-**2. Variables no utilizadas en el análisis**
 
-El dataset incluía variables de potencial interés analítico que no han sido explotadas en este proyecto: `horas_extra_mensuales`, `training_completado_pct`, `satisfaccion_onboarding` y `engagement_score`. La decisión fue intencional: el objetivo principal no era maximizar el número de variables analizadas, sino priorizar un proceso sólido de limpieza, transformación y preparación del dato, centrándose en preguntas de negocio concretas.
+**2. Limitación de la herramienta**
 
-Esto ilustra cómo el alcance del análisis depende directamente de la pregunta inicial: cuanto más acotada es la problemática, más focalizado debe ser el camino hacia los insights.
-
-**3. Escala del score de riesgo**
-
-El score está construido sobre dos variables y umbrales fijos. Su valor es orientativo: señala dónde mirar, no quién se irá con certeza. Una versión más robusta incorporaría un modelo predictivo, lo que requeriría salir de Excel y trabajar con Python.
+Excel nos permite crear el score a partir de dos variables y umbrales fijos. Su valor es orientativo: señala dónde mirar, no quién se irá con certeza. Una versión más robusta incorporaría un modelo predictivo, lo que requeriría salir de Excel y trabajar con Python.
