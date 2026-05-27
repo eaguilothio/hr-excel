@@ -223,3 +223,10 @@ El análisis se basa en un dataset sintético generado con IA. Esto implica que 
 **2. Limitación de la herramienta**
 
 Excel nos permite crear el score a partir de dos variables y umbrales fijos. Su valor es orientativo: señala dónde mirar, no quién se irá con certeza. Una versión más robusta incorporaría un modelo predictivo, lo que requeriría salir de Excel y trabajar con Python.
+
+## Archivos del repositorio
+
+```
+.xlsx    → Excel de los datos
+README.md → documento del proceso
+```
