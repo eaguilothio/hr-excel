@@ -15,7 +15,7 @@ El análisis se estructuró en tres preguntas, cada una construida sobre la ante
 
 - ¿La rotación global del hospital está en niveles preocupantes?
 - ¿El problema se concentra en Urgencias o afecta a más departamentos?
-- ¿Podemos identificar, con los datos disponibles, qué empleados activos tienen mayor riesgo de causar baja voluntaria?
+- Y si no hay un problema en urgencias, ¿Podemos identificar, con los datos disponibles, qué empleados activos tienen mayor riesgo de causar baja voluntaria?
 
 ---
 
@@ -123,7 +123,7 @@ Un outlier puede ser un error tipográfico o un valor real extremo. La decisión
 Las variables calculadas son aquellas que el dataset original no incluye pero que serían de utilidad para el análisis —según las hipótesis planteadas— y recomendables para cualquier proyecto futuro.
 
 - `antiguedad_meses` — el dataset original no incluía la duración de los empleados que causaron baja. Sin este dato, no se puede analizar cuánto tiempo permanece un empleado antes de irse.
-- `tramo_antiguedad` — los meses por sí solos no ofrecen información accionable. Se agrupan en cuatro tramos: `0-12m` (early attrition), `1-3a` (consolidación), `3-6a` (consolidado), `+6a` (senior).
+- `tramo_antiguedad` — la información temporal por sí sola no ofrece información accionable. Se agrupan en cuatro tramos: `0-12m` (early attrition), `1-3a` (consolidación), `3-6a` (consolidado), `+6a` (senior).
 - `abandono_temprano` — marca con sí/no si un empleado causó baja antes de cumplir el primer año.
 - `es_salida_voluntaria` — separa fuga de talento (el empleado elige irse) de rotación gestionada (despido, fin de contrato, jubilación). Sin esta distinción, cualquier estrategia estaría mal dirigida.
 
@@ -207,9 +207,12 @@ A pesar de que no se identificó ninguna problemática de rotación reciente en 
 
 ## Conclusiones
 
-La percepción inicial apuntaba a Urgencias como foco de pérdida de profesionales, dado el nivel de presión asistencial del servicio. Los datos no respaldan esa percepción: no se registró ninguna baja voluntaria en Urgencias durante 2025, ni se identifican otros departamentos problemáticos. 
+La percepción inicial apuntaba a Urgencias como posible foco de rotación debido a la presión asistencial del servicio. Sin embargo, los datos no respaldan esta hipótesis: en 2025 no se registró ninguna baja voluntaria en Urgencias ni se identifican otros departamentos especialmente problemáticos.
 
-Sin embargo, la ausencia de un problema actual no elimina el riesgo futuro. La hipótesis C muestra cómo el score identifica a cinco profesionales de Urgencias con señales de posible desvinculación: empleados consolidados, con mayor experiencia y conocimiento acumulado, y sometidos a turnos especialmente exigentes. Aunque el score no predice con certeza quién abandonará la organización, sí permite anticipar intervenciones y adoptar decisiones preventivas antes de que la situación se convierta en urgente.
+Aun así, el análisis predictivo identifica a cinco profesionales de Urgencias con señales de posible desvinculación. Se trata de empleados consolidados, con experiencia y exposición continuada a turnos exigentes. Aunque el score no predice con certeza quién abandonará la organización, sí permite detectar señales tempranas de desgaste y actuar de forma preventiva.
+
+Dado que la operativa de Urgencias limita la posibilidad de modificar sustancialmente horarios e intensidad asistencial, las medidas deberían centrarse en mejorar la previsibilidad de turnos, reforzar las compensaciones y realizar seguimiento preventivo del desgaste profesional.
+
 
 ---
 
